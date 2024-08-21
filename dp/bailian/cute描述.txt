@@ -1,0 +1,29 @@
+题目1 : CUTE 和 ETUC
+时间限制:10000ms
+单点时限:1000ms
+内存限制:256MB
+描述
+TruckEngineer 是一位百万富翁。正如他的名字所诉，他有着一家卡车公司，下面有四个车队，车队 "C"，车队 "U"，车队 "T" 和车队 "E"。公司里每辆卡车都恰属于一个车队。正如所有伟大的领导一样
+，TruckEnginneer 十分享受卡车排成一排进行检阅的时刻。然而，TruckEngineer 发现这样的检阅并不够壮观。TruckEngineer 决定再不改变卡车们相对顺序的情况下，将卡车们分为两组，
+当然，有些卡车将会从检阅中被开除出去。其中一组有 4a 辆卡车，卡车的车队编号依次为"CUTECUTE……"，而另一组有 4b 辆卡车，卡车的车队编号依次为"ETUCETUC……"。TruckEnginner 想知道最多能有多少辆卡车在拆分后被留下来参与检阅。
+
+输入
+第一行包含一个整数 n(1≤n≤100000)，表示有多少卡车参与检阅。 第二行包行一个长度为 n 的由字母 "c", "u", "t", "e" 组成的字符串。第 i 个字符表示第 i 的卡车所属的的车队标号。
+
+输出
+输出最大的剩余卡车数量。
+
+额外样例
+Sample Input 1	Sample Output 1
+10
+tceuctttec	4
+
+Sample Input 2	Sample Output 2
+20
+tetceucutccuuttuucue	8
+
+样例输入
+8
+etucutec
+样例输出
+8
